@@ -1,0 +1,31 @@
+{
+  "name": "Hackerspaces",
+  "description": "This app show the status and informations of many hackerspaces in the world with SpaceAPI service.",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/img/icon-128.png",
+    "512": "/img/icon-512.png"
+  },
+  "developer": {
+    "name": "Samuel Moraes",
+    "url": "http://www.samuelmoraes.com"
+  },
+  "default_locale": "en",
+  "locales": {
+    "pt-BR": {
+      "name" : "Hackerspaces",
+      "description" : "Este aplicativo exibe o status e as informações de vários hackerspaces do mundo com o serviço SpaceAPI"
+    }
+  },
+  "icons": {
+    "512": "/images/512.png",
+    "256": "/images/256.png",
+    "128": "/images/128.png",
+    "90": "/images/90.png",
+    "64": "/images/64.png",
+    "60": "/images/60.png",
+    "48": "/images/48.png",
+    "32": "/images/32.png",
+    "16": "/images/16.png"
+  }
+}
