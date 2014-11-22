@@ -2,10 +2,6 @@
   "name": "Hackerspaces",
   "description": "This app show the status and informations of many hackerspaces in the world with SpaceAPI service.",
   "launch_path": "/index.html",
-  "icons": {
-    "128": "/img/icon-128.png",
-    "512": "/img/icon-512.png"
-  },
   "developer": {
     "name": "Samuel Moraes",
     "url": "http://www.samuelmoraes.com"
@@ -27,5 +23,6 @@
     "48": "/images/48.png",
     "32": "/images/32.png",
     "16": "/images/16.png"
-  }
+  },
+  "chrome": {"navigation": true}
 }
