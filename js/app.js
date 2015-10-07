@@ -11,7 +11,7 @@ function connection_error( fonclick ){
 function loadhackers(){
 	var zero = 0;
 	$('.carregando-dados').fadeIn('slow');
-	$.getJSON( "http://spaceapi.net/directory.json" )
+	$.getJSON("http://spaceapi.net/directory.json" )
 		.done(function( json ) {
 			$('.carregando-dados').fadeOut('slow');
 			var items = [];
@@ -39,6 +39,7 @@ function hackmuda(hacknum){
 	$('.carregando').fadeIn('slow');
 	$('#menutopo').collapse('hide');
 	$.getJSON( hackerspaces[hacknum][2] )
+	//$.getJSON("http://spaceapi.net/cache/"+hackerspaces[hacknum][1])
 	.done(function( json ) {
 		$('.carregando').fadeOut('slow');
 		$('.page-header h1').html(json['space']);
