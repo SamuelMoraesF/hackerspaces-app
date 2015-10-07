@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SpaceAPI - Hackerspaces</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="leaflet.css" rel="stylesheet">
+    <link rel="resource" type="application/l10n" href="locales/locales.ini" />
+    <script src="js/l10n.js"></script>
+    <style>
+	.panel-body a{float:right;}
+	
+	.carregando, .carregando-dados {position: fixed;display:none;top:0;width: 100%;height: 100%;background: rgba(0,0,0,0.7);color:#fff;font-size: 30px;text-align: center;padding-top:60%;}
+	
+	#mapa {width:100%;height:300px;margin-top:10px;}
+		
+	</style>
+    
+  </head>
+  <body>
+    <nav class="navbar navbar-default" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menutopo">
+					<span class="sr-only">Menu</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Hackerspaces</a>
+			</div>
+			
+			<div class="collapse navbar-collapse" id="menutopo">
+				<ul class="nav navbar-nav navbarhackerspaces">
+				</ul>
+			</div>
+		</div>
+	</nav>
+    
+    <div class="errorarea"></div>
+    
+    <div style="width:90%;margin:0 auto;">
+		<div style="text-align:center;">
+			<div class="page-header">
+				<h1></h1>
+			</div>
+			<div style="width:100%;" class="hacklogo"></div>
+			<h2 class="hackstatus"></h2>
+		</div>
+		
+		<div class="content">
+			<div id="showfirst" style="text-align:center;"><h1 style="line-height:1.4 !important;" data-l10n-id="select-hackerspace-on-the-top-menu">Select an hackerspace on the top menu</h1><span class="glyphicon glyphicon-arrow-up" style="display:block;font-size:100px;margin-top:40px;"></span></div>
+			<div id="hidefirst" style="display:none;">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title" data-l10n-id="address">Address</h3>
+					</div>
+					<div class="panel-body panel-endereco">
+					</div>
+				</div>
+
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title" data-l10n-id="contact">Contact</h3>
+					</div>
+					<div class="panel-body" style="line-height:30px;">
+						<div class="telefone"></div>
+						<div class="twitter"></div>
+						<div class="facebook"></div>
+						<div class="email"></div>
+						<div class="ml"></div>
+						<div class="site"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="carregando" data-l10n-id="loading">Loading...</div>
+	
+	<div class="carregando-dados" data-l10n-id="loading-data">Loading Data...</div>
+	
+    <script src="leaflet.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
