@@ -23,28 +23,27 @@ html, body {
 }
 
 .styled-select select {
-   background: transparent;
-   width: 315px;
-   font-size: 16px;
-   line-height: 1;
-   border: 0;
-   border-radius: 0;
-   height: 34px;
-   -webkit-appearance: none;
+  background: transparent;
+  width: 315px;
+  font-size: 16px;
+  line-height: 1;
+  border: 0;
+  border-radius: 0;
+  height: 34px;
+  -webkit-appearance: none;
 }
 
 .styled-select {
-   width: 300px;
-   height: 34px;
-   overflow: hidden;
-   background: url(../images/arrow_select.jpg) no-repeat right #ddd;
-   border: 1px solid #ccc;
-   margin:auto;
-   margin-bottom:-33px;
+  width: 300px;
+  height: 34px;
+  overflow: hidden;
+  background: url(../images/arrow_select.jpg) no-repeat right #ddd;
+  border: 1px solid #ccc;
+  margin:auto;
+  margin-bottom:-33px;
 }
 
-#searchIcon
-{
+#searchIcon {
   margin-left:350px;
 }
 
@@ -53,7 +52,6 @@ html, body {
   margin:0;
   padding:0;
   width:100%;
-  height:100%;
   background-color: #fff;
   color:#000;
 }
@@ -65,80 +63,137 @@ html, body {
 }
 
 .panel {
-    margin-bottom: 21px;
-    background-color: #FFF;
-    border: 1px solid transparent;
-    border-radius: 0px;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+  margin-bottom: 21px;
+  background-color: #FFF;
+  border: 1px solid transparent;
+  border-radius: 0px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
 }
 
 .panel-default {
-    border-color: #DDD;
-    width:80%;
-    margin:auto;
-    margin-top:20px;
-    margin-bottom:10px;
+  border-color: #DDD;
+  width:80%;
+  margin:auto;
+  margin-top:20px;
+  margin-bottom:10px;
 }
 
 .panel-title {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 17px;
-    color: inherit;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 17px;
+  color: inherit;
 }
 
 element {
-    position: relative;
+  position: relative;
 }
 
 #mapa {
-    width: 100%;
-    height: 300px;
-    margin-top: 10px;
+  width: 100%;
+  height: 300px;
+  margin-top: 10px;
+}
+
+.leaflet-container {
+  font: 12px/1.5 "Helvetica Neue",Arial,Helvetica,sans-serif;
 }
 .leaflet-container {
-    font: 12px/1.5 "Helvetica Neue",Arial,Helvetica,sans-serif;
+  background: #DDD none repeat scroll 0% 0%;
+  outline: 0px none;
 }
 .leaflet-container {
-    background: #DDD none repeat scroll 0% 0%;
-    outline: 0px none;
+  cursor: grab;
 }
 .leaflet-container {
-    cursor: grab;
-}
-.leaflet-container {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .label-danger {
-    background-color: #FF0039;
+  background-color: #FF0039;
 }
 
 .label {
-    display: inline;
-    padding: 0.2em 0.6em 0.3em;
-    font-size: 75%;
-    font-weight: bold;
-    line-height: 1;
-    color: #FFF;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: 0px;
+  display: inline;
+  padding: 0.2em 0.6em 0.3em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: #FFF;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0px;
 }
 
 .panel-default > .panel-heading {
-    color: #333;
-    background-color: #F5F5F5;
-    border-color: #DDD;
-    border-top-right-radius: 0px;
-    border-top-left-radius: 0px;
-    padding: 10px 15px;
-    border-bottom: 1px solid transparent;
+  color: #333;
+  background-color: #F5F5F5;
+  border-color: #DDD;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
 }
 
 .panel-body {
-    padding: 10px 15px;
+  padding: 10px 15px;
+}
+
+.alert {
+  border: medium none;
+}
+
+.alert-warning {
+  background-color: #FF7518;
+  border-color: #FF4309;
+  color: #FFF;
+}
+
+.alert-dismissable, .alert-dismissible {
+  padding-right: 35px;
+}
+.alert {
+  padding: 15px;
+  margin-bottom: 21px;
+  border: 1px solid transparent;
+  border-radius: 0px;
+}
+
+.close:hover, .close:focus {
+  opacity: 1;
+}
+
+.close:hover, .close:focus {
+  color: #FFF;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.alert-dismissable .close, .alert-dismissible .close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  color: inherit;
+}
+
+button.close {
+  padding: 0px;
+  cursor: pointer;
+  background: transparent none repeat scroll 0% 0%;
+  border: 0px none;
+}
+
+.close {
+  float: right;
+  font-size: 22.5px;
+  font-weight: bold;
+  line-height: 1;
+  color: #FFF;
+  text-shadow: 0px 1px 0px #FFF;
+  opacity: 0.2;
+  margin-right:20px;
 }
 
 #head {
@@ -148,8 +203,7 @@ element {
   overflow:hidden;
 }
 
-.hacklogo
-{
+.hacklogo {
   float:left;
   margin-top:20px;
   width:50%;
@@ -168,70 +222,13 @@ element {
 }
 
 .label-success {
-    background-color: #3FB618;
-}
-
-.alert {
-    border: medium none;
-}
-.alert-warning {
-    background-color: #FF7518;
-    border-color: #FF4309;
-    color: #FFF;
-}
-.alert-dismissable, .alert-dismissible {
-    padding-right: 35px;
-}
-.alert {
-    padding: 15px;
-    margin-bottom: 21px;
-    border: 1px solid transparent;
-    border-radius: 0px;
-}
-
-.close:hover, .close:focus {
-    opacity: 1;
-}
-.close:hover, .close:focus {
-    color: #FFF;
-    text-decoration: none;
-    cursor: pointer;
-    opacity: 0.5;
-}
-.alert-dismissable .close, .alert-dismissible .close {
-    position: relative;
-    top: -2px;
-    right: -21px;
-    color: inherit;
-}
-
-button.close {
-    padding: 0px;
-    cursor: pointer;
-    background: transparent none repeat scroll 0% 0%;
-    border: 0px none;
-}
-.close {
-    text-decoration: none;
-    text-shadow: none;
-    opacity: 0.4;
-}
-
-.close {
-    float: right;
-    font-size: 22.5px;
-    font-weight: bold;
-    line-height: 1;
-    color: #FFF;
-    text-shadow: 0px 1px 0px #FFF;
-    opacity: 0.2;
-    margin-right:20px;
+  background-color: #3FB618;
 }
 
 #links {
   float:right;
-  margin-top:20px;
-  margin-right:40px;
+  margin-top:60px;
+  margin-right:100px;
 }
 
 #links a {
@@ -245,46 +242,39 @@ button.close {
 	border-bottom: dotted 1px;
 }
 
-@media only screen and (max-width: 600px) and (max-height: 500px){
+@media only screen and (orientation: portrait){
+
+body {
+  font-size:3em;
+}
 
 #chooseDiv {
   width:100%;
   margin:0;
-  padding-top:40%;
+  padding-top:50%;
 }
 
 .styled-select select {
-   background: transparent;
-   width: 100%;
-   font-size: 16px;
-   line-height: 1;
-   border: 0;
-   border-radius: 0;
-   height: 34px;
-   -webkit-appearance: none;
+  width: 100%;
+  font-size: 1.5em;
+  height: 100%;
 }
 
 .styled-select {
-   width: 80%;
-   height: 34px;
-   overflow: hidden;
-   border: 1px solid #ccc;
-   margin:auto;
+  width: 80%;
+  height: 100%;
 }
 
-#searchIcon
-{
+#searchIcon {
   float:right;
   width:100%;
   margin-top:20px;
 }
 
-.hacklogo
-{
+.hacklogo {
   float:none;
-  margin-top:20px;
   width:100%;
-  max-height:200px;
+  max-height:100%;
   overflow:hidden;
 }
 
@@ -299,11 +289,19 @@ button.close {
   margin-bottom:-20px;
 }
 
-
 #head {
   height:100%;
-  width:80%;
-  margin:auto;
-  overflow:hidden;
+}
+
+#searchIcon img {
+  width:10%;
+}
+
+#logo img {
+  width:20%;
+}
+
+.panel-title {
+  font-size: 1.5em;
 }
 }
