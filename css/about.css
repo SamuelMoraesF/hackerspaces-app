@@ -1,0 +1,42 @@
+body, html {
+  background-color: #f1f1f1;
+  margin:0;
+  padding:0;
+  font-family: "Source Sans Pro",Calibri,Candara,Arial,sans-serif;
+}
+
+#retour {
+  width:100%;
+  background-color:#1E1E1E;
+  margin:0;
+  height:50px;
+  position:fixed;
+  top:0;
+}
+
+#content {
+  width:90%;
+  margin:auto;
+  margin-top:60px;
+  margin-bottom:30px;
+  text-align:justify;
+}
+
+#content h1 {
+  color: #1E1E1E;
+}
+
+#source {
+  font-size:0.8em;
+}
+
+#content a {
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	color: #1E1E1E;
+	text-decoration: none;
+	border-bottom: dotted 1px;
+}
