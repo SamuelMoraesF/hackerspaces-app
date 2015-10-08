@@ -1,76 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="utf-8">
-    <link href="css/space.css" rel="stylesheet">
-    <link rel="resource" type="application/l10n" href="locales/locales.ini" />
-    <script src="js/l10n.js"></script>
-    <title>Hackerspaces</title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <link href="css/space.css" rel="stylesheet">
+  <link rel="resource" type="application/l10n" href="locales/locales.ini" />
+  <script src="js/l10n.js"></script>
+  <link rel="icon" type="image/png" href="images/32.png">
+  <title>Hackerspaces</title>
+</head>
+<body>
 
-<div id="choose">
-  <div id="links">
-    <a href="about.html" data-l10n-id="about">About</a>
-  </div>
-  <div id="chooseDiv">
-  <div id="logo">
-    <img src="images/glider.png" alt="logo" width="100px">
-  </div>
-    <div class="styled-select">
-      <select name="listbox" id="labs" size="1">
-      </select>
+  <div id="choose">
+    <div id="links">
+      <a href="about.html" data-l10n-id="about">About</a>
     </div>
-    <div id="searchIcon">
-      <a href="#Infos" onclick="hackmuda(document.getElementById('labs').selectedIndex);">
-        <img src="css/ok.png" alt="search" width="30px">
-      </a>
+    <div id="chooseDiv">
+    <div id="logo">
+      <img src="images/glider.png" alt="logo" width="100px">
+    </div>
+      <div class="styled-select">
+        <select name="listbox" id="labs" size="1">
+        </select>
+      </div>
+      <div id="searchIcon">
+        <a href="#Infos" onclick="hackmuda(document.getElementById('labs').selectedIndex);">
+          <img src="images/ok.png" alt="search" width="30px">
+        </a>
+      </div>
     </div>
   </div>
-</div>
 
-<!--TODO CSS-->
-<div id="Infos">
-		<div class="content">
-			<div id="showfirst" style="text-align:center;"><h1 style="line-height:1.4 !important;" data-l10n-id="select-hackerspace-on-the-top-menu">Select a hackerspace on the top menu</h1><span class="glyphicon glyphicon-arrow-up" style="display:block;font-size:100px;margin-top:40px;"></span></div>
-			<div id="hidefirst" style="display:none;">
-			
-		<div class="errorarea"></div>
-		<div id="head">
-			<div class="hacklogo"></div>
-			<div class="page-header">
-				<h1></h1>
-				<h2 class="hackstatus"></h2>
-			</div>
-		</div>
-		
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h3 class="panel-title" data-l10n-id="address">Address</h3>
-					</div>
-					<div class="panel-body panel-endereco">
-					</div>
-				</div>
+  <div id="Infos">
+    <div class="content">
+      <div id="showfirst" style="text-align:center;"><h1 style="line-height:1.4 !important;" data-l10n-id="select-hackerspace-on-the-top-menu">Select a hackerspace on the top menu</h1><span class="glyphicon glyphicon-arrow-up" style="display:block;font-size:100px;margin-top:40px;"></span></div>
+      <div id="hidefirst" style="display:none;">
 
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h3 class="panel-title" data-l10n-id="contact">Contact</h3>
-					</div>
-					<div class="panel-body" style="line-height:30px;">
-						<div class="telefone"></div>
-						<div class="twitter"></div>
-						<div class="facebook"></div>
-						<div class="email"></div>
-						<div class="ml"></div>
-						<div class="site"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-</div>
-    <script src="leaflet.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/apptest.js"></script>
-  </body>
+        <div class="errorarea"></div>
+        <div id="head">
+          <div class="hacklogo"></div>
+          <div class="page-header">
+            <h1></h1>
+            <h2 class="hackstatus"></h2>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+             <h3 class="panel-title" data-l10n-id="address">Address</h3>
+          </div>
+          <div class="panel-body panel-endereco">
+          </div>
+        </div>
+         <div class="panel panel-default">
+           <div class="panel-heading">
+             <h3 class="panel-title" data-l10n-id="contact">Contact</h3>
+           </div>
+         <div class="panel-body" style="line-height:30px;">
+           <div class="telefone"></div>
+           <div class="twitter"></div>
+           <div class="facebook"></div>
+           <div class="email"></div>
+           <div class="ml"></div>
+           <div class="site"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="leaflet.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
 </html>

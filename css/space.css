@@ -37,7 +37,7 @@ html, body {
    width: 300px;
    height: 34px;
    overflow: hidden;
-   background: url(arrow_select.jpg) no-repeat right #ddd;
+   background: url(../images/arrow_select.jpg) no-repeat right #ddd;
    border: 1px solid #ccc;
    margin:auto;
    margin-bottom:-33px;
@@ -268,7 +268,6 @@ button.close {
    width: 80%;
    height: 34px;
    overflow: hidden;
-   background: url(arrow_select.jpg) no-repeat right #ddd;
    border: 1px solid #ccc;
    margin:auto;
 }
@@ -280,4 +279,31 @@ button.close {
   margin-top:20px;
 }
 
+.hacklogo
+{
+  float:none;
+  margin-top:20px;
+  width:100%;
+  max-height:200px;
+  overflow:hidden;
+}
+
+#head .page-header {
+  float:none;
+  width:100%;
+  margin-top:10px;
+  margin-left:0px;
+}
+
+#head .page-header h1 {
+  margin-bottom:-20px;
+}
+
+
+#head {
+  height:100%;
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
 }
