@@ -11,6 +11,10 @@
     "pt-BR": {
       "name" : "Hackerspaces",
       "description" : "Este aplicativo exibe o status e as informações de vários hackerspaces do mundo com o serviço SpaceAPI"
+    },
+    "fr": {
+      "name" : "Hackerspaces",
+      "description" : "Cette application montre le statut et les informations de nombreux hackerspaces dans le monde avec le service SpaceAPI"
     }
   },
   "icons": {
@@ -24,5 +28,7 @@
     "32": "/images/32.png",
     "16": "/images/16.png"
   },
-  "chrome": {"navigation": true}
+  "chrome": {"navigation": true},
+  "fullscreen": "true",
+  "orientation": [ "portrait" ]
 }
